@@ -15,7 +15,9 @@
 body {
   background-color: black;
 }
-
+container {
+  text-align: center;
+}
 @font-face {
 font-family: BebasNeue;
 src:url(fonts/BebasNeue.ttf) format('truetype')

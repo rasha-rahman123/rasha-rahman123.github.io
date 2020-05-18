@@ -1,22 +1,69 @@
 .themed-grid-col {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: rgba(86, 61, 124, .15);
-  border: 1px solid rgba(86, 61, 124, .2);
+  background-color: rgba(169, 194, 131, .15);
+  border: 1px solid rgba(169, 194, 131, .2);
 }
 
 .themed-container {
   padding: 15px;
   margin-bottom: 30px;
-  background-color: rgba(0, 123, 255, .15);
-  border: 1px solid rgba(0, 123, 255, .2);
+  background-color: rgba(255, 132, 0, .15);
+  border: 1px solid rgba(255, 132, 0, .2);
+}
+a:hover {
+  color: white;
 }
 
 body {
   background-color: black;
 }
-container {
+.top-part{
+  margin-bottom: 7em;
+}
+.down-arrow {
+  fill: rgba(255,197,166, .2);
+  display:inline-block;
   text-align: center;
+}
+.down-arrow:hover {
+  fill: rgba(255,197,166, .6);
+}
+.container {
+
+}
+.container-lg {
+}
+.noice-stuff {
+  margin-top: -2vw;
+  text-alignt: center;
+  color:rgb(255,197,166);
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.01vw;
+  font-family:BebasNeue;
+
+}
+.sub-logo p:hover {
+  color: white;
+}
+.main-logo {
+  color:#ffb58c;
+  font-weight: bolder;
+    font-size: 15vw;
+       line-height: 12vw;
+       font-family:BebasNeue;
+       text-align: center;
+}
+.sub-logo {
+  color: rgb(255,197,166);
+  margin-top: -2vw;
+  font-weight: bold;
+  font-size: 4vw;
+  opacity: 68%;
+  letter-spacing: 0.04vw;
+  font-family:BebasNeue;
 }
 @font-face {
 font-family: BebasNeue;

@@ -37,7 +37,6 @@ body {
 .noice-stuff {
   margin-top: -2vw;
   text-alignt: center;
-  color:rgb(255,197,166);
   font-size: 2vw;
   font-weight: bold;
   text-align: center;
@@ -46,7 +45,7 @@ body {
 
 }
 .sub-logo p:hover {
-  color: white;
+  color: #F1DA70;
 }
 .main-logo {
   color:#ffb58c;
@@ -57,7 +56,7 @@ body {
        text-align: center;
 }
 .sub-logo {
-  color: rgb(255,197,166);
+  color: #ddd9c 2;
   margin-top: -2vw;
   font-weight: bold;
   font-size: 4vw;

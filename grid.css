@@ -5,7 +5,69 @@
   border: 1px solid rgba(169, 194, 131, .2);
   text-align: center;
 }
+.text-xs {
+  font-size: 0.9em;
+  font-weight: 600;
+  font-family: Inter;
+  opacity: 0.8;
+}
+.okiii {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0.2em;
+  border-radius: 3px;
+  margin: 2vw;
+}
 
+.font-semibold {
+  font-size: 1.2em;
+  margin-bottom: -0.2em;
+}
+.font-semibold2 {
+  background-color: lightpink;
+  font-weight: 700;
+  width: 20vw;
+  padding: 0.2em;
+  border-radius: 3px;
+  margin-bottom: -0.2em;
+}
+.font-semibold3 {
+  background-color: lightgreen;
+  font-weight: 700;
+  width: 20vw;
+  padding: 0.2em;
+  border-radius: 3px;
+  margin-bottom: 0em;
+}
+.text-sm {
+  background-color: #50c6f8;
+  color: black;
+  border-radius: 3px;
+  font-size: 1em;
+  font-weight: 800;
+  font-family: Inter;
+}
+body{
+  cursor: url("images/cursor.svg"), auto;
+  background-color: #00aff9;
+  font-family: Inter;
+}
+.p{
+font-family: Inter;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.textjjj {
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+}
+.textklk {
+  width: 40vw;
+}
 .themed-container {
   padding: 15px;
   margin-bottom: 30px;
@@ -43,9 +105,7 @@ a:hover {
   background: YELLOW;
   cursor: pointer;
 }
-body {
-  background-color: black;
-}
+
 .top-part{
   margin-bottom: 7em;
 }
@@ -64,35 +124,233 @@ body {
 }
 .noice-stuff {
   margin-top: -2vw;
-  text-alignt: center;
-  color:#C2ECE5;
+  text-align: center;
+  color:#00aff9;
   font-size: 2vw;
   font-weight: bold;
   text-align: center;
   margin-top: 0.01vw;
-  font-family:BebasNeue;
+  font-family:Inter;
 
 }
 .sub-logo p:hover {
-  color: #F1DA70;
+  color: lightgoldenrodyellow;
 }
 .main-logo {
-  color:#ffb58c;
+  color:yellow;
   font-weight: bolder;
-    font-size: 15vw;
+    font-size: 4em;
        line-height: 12vw;
-       font-family:BebasNeue;
+       font-family:Inter;
        text-align: center;
+   
 }
 .sub-logo {
-  color: #ddd9c 2;
+  color: #ddd9c2;
   margin-top: -2vw;
   font-weight: bold;
-  font-size: 4vw;
+  font-size: 2em;
   opacity: 68%;
   letter-spacing: 0.04vw;
-  font-family:BebasNeue;
+  font-family:Inter;
 }
 @font-face {
-font-family: BebasNeue;
-src:url(fonts/BebasNeue.ttf) format('truetype')
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("fonts/inter/Inter-Thin.woff2?v=3.13") format("woff2"),
+       url("fonts/inter/Inter-Thin.woff?v=3.13") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url("fonts/inter/Inter-ThinItalic.woff2?v=3.13") format("woff2"),
+       url("fonts/inter/Inter-ThinItalic.woff?v=3.13") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("fonts/inter/Inter-ExtraLight.woff2?v=3.13") format("woff2"),
+       url("fonts/inter/Inter-ExtraLight.woff?v=3.13") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url("fonts/inter/Inter-ExtraLightItalic.woff2?v=3.13") format("woff2"),
+       url("fonts/inter/Inter-ExtraLightItalic.woff?v=3.13") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("fonts/inter/Inter-Light.woff2?v=3.13") format("woff2"),
+       url("fonts/inter/Inter-Light.woff?v=3.13") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url("fonts/inter/Inter-LightItalic.woff2?v=3.13") format("woff2"),
+       url("fonts/inter/Inter-LightItalic.woff?v=3.13") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/inter/Inter-Regular.woff2?v=3.13") format("woff2"),
+       url("fonts/inter/Inter-Regular.woff?v=3.13") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/inter/Inter-Italic.woff2?v=3.13") format("woff2"),
+       url("fonts/inter/Inter-Italic.woff?v=3.13") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("fonts/inter/Inter-Medium.woff2?v=3.13") format("woff2"),
+       url("fonts/inter/Inter-Medium.woff?v=3.13") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("fonts/inter/Inter-MediumItalic.woff2?v=3.13") format("woff2"),
+       url("fonts/inter/Inter-MediumItalic.woff?v=3.13") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("fonts/inter/Inter-SemiBold.woff2?v=3.13") format("woff2"),
+       url("fonts/inter/Inter-SemiBold.woff?v=3.13") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("fonts/inter/Inter-SemiBoldItalic.woff2?v=3.13") format("woff2"),
+       url("fonts/inter/Inter-SemiBoldItalic.woff?v=3.13") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/inter/Inter-Bold.woff2?v=3.13") format("woff2"),
+       url("fonts/inter/Inter-Bold.woff?v=3.13") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/inter/Inter-BoldItalic.woff2?v=3.13") format("woff2"),
+       url("fonts/inter/Inter-BoldItalic.woff?v=3.13") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("fonts/inter/Inter-ExtraBold.woff2?v=3.13") format("woff2"),
+       url("fonts/inter/Inter-ExtraBold.woff?v=3.13") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 800;
+  font-display: swap;
+  src: url("fonts/inter/Inter-ExtraBoldItalic.woff2?v=3.13") format("woff2"),
+       url("fonts/inter/Inter-ExtraBoldItalic.woff?v=3.13") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("fonts/inter/Inter-Black.woff2?v=3.13") format("woff2"),
+       url("fonts/inter/Inter-Black.woff?v=3.13") format("woff");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url("fonts/inter/Inter-BlackItalic.woff2?v=3.13") format("woff2"),
+       url("fonts/inter/Inter-BlackItalic.woff?v=3.13") format("woff");
+}
+
+/* -------------------------------------------------------
+Variable font.
+Usage:
+
+  html { font-family: 'Inter', sans-serif; }
+  @supports (font-variation-settings: normal) {
+    html { font-family: 'Inter var', sans-serif; }
+  }
+*/
+@font-face {
+  font-family: 'Inter var';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url("fonts/inter/Inter-roman.var.woff2?v=3.13") format("woff2");
+}
+@font-face {
+  font-family: 'Inter var';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+  font-named-instance: 'Italic';
+  src: url("fonts/inter/Inter-italic.var.woff2?v=3.13") format("woff2");
+}
+
+
+/* --------------------------------------------------------------------------
+[EXPERIMENTAL] Multi-axis, single variable font.
+
+Slant axis is not yet widely supported (as of February 2019) and thus this
+multi-axis single variable font is opt-in rather than the default.
+
+When using this, you will probably need to set font-variation-settings
+explicitly, e.g.
+
+  * { font-variation-settings: "slnt" 0deg }
+  .italic { font-variation-settings: "slnt" 10deg }
+
+*/
+@font-face {
+  font-family: 'Inter var experimental';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: oblique 0deg 10deg;
+  src: url("fonts/inter/Inter.var.woff2?v=3.13") format("woff2");
+}
